@@ -1,4 +1,27 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { RiSearch2Line, RiShoppingCartLine, RiMenuLine } from "react-icons/ri";
-import { FaTimes } from "react-icons/fa";
+import { FaTimes, FaChevronDown } from "react-icons/fa";
+
+const CourseCategories = [
+  "Art & Design",
+  "Business",
+  "Computer Science",
+  "Data Science",
+  "Finance",
+  "Health & Fitness",
+  "Lifestyle",
+  "Marketing",
+  "Music",
+  "Photography",
+  "Programming",
+  "Social Media",
+  "Writing",
+  "Language",
+  "Math",
+  "Science",
+  "Social Science",
+  "Technology",
+  "Web Design",
+  "Web Development",
+];
