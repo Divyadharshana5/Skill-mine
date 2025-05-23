@@ -25,3 +25,8 @@ const CourseCategories = [
   "Web Design",
   "Web Development",
 ];
+
+const Navbar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+};
