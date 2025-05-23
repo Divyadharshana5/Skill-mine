@@ -31,7 +31,7 @@ const Navbar = () => {
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   return (
-    <div className="flex items-center justify-center sticky top-0 w-full"></div>
+    <div className="flex items-center justify-center sticky top-0 z-100 bg-[#fff] shadow-md w-full"></div>
   );
 };
 export default Navbar;
