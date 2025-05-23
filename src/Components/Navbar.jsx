@@ -30,6 +30,8 @@ const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
-  return <div className="flex items-center justify-center sticky w-full"></div>;
+  return (
+    <div className="flex items-center justify-center sticky top-0 w-full"></div>
+  );
 };
 export default Navbar;
