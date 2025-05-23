@@ -30,4 +30,6 @@ const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
+  return <div></div>;
 };
+export default Navbar;
