@@ -40,7 +40,10 @@ const Navbar = () => {
             </h1>
           </link>
         </span>
-        <div className="relative lg:block"></div>
+        <div
+          className="relative lg:block"
+          onMouseEnter={() => setIsCategoryOpen(true)}
+        ></div>
       </nav>
     </div>
   );
