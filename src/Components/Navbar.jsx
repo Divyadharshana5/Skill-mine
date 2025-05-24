@@ -44,7 +44,12 @@ const Navbar = () => {
           className="relative hidden lg:block"
           onMouseEnter={() => setIsCategoryOpen(true)}
           onMouseLeave={() => setIsCategoryOpen(false)}
-        ></div>
+        >
+          <button className="flex items-center gap-2 text-[1em] cursor-pointer">
+            <RiMenuLine />
+            Category
+          </button>
+        </div>
       </nav>
     </div>
   );
