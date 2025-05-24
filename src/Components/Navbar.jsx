@@ -36,7 +36,7 @@ const Navbar = () => {
         <span className="flex items-center lg:border-r border-gray-300 min-h-[40px] pr-7">
           <link to="/">
             <h1 className="font-bold text-xl">
-              Skill <span></span>
+              Skill <span className="text-purple-500">Mine</span>
             </h1>
           </link>
         </span>
