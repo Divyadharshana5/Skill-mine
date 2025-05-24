@@ -50,8 +50,14 @@ const Navbar = () => {
             Category
           </button>
           <div
-            className={`absolute z-20 left-0 w-[250px] mt-3 bg-[#fff] shadow-lg rounded-md p-3 transition-all duration-300 ease-in-out`}
-          ></div>
+            className={`absolute z-20 left-0 w-[250px] mt-3 bg-[#fff] shadow-lg rounded-md p-3 transition-all duration-300 ease-in-out ${
+              isCategoryOpen
+                ? "opacity-100 translate-y-0 visible"
+                : "opacity-0 -translate-y-5 invisible"
+            }`}
+          >
+            <ul></ul>
+          </div>
         </div>
       </nav>
     </div>
