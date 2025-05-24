@@ -40,6 +40,7 @@ const Navbar = () => {
             </h1>
           </link>
         </span>
+        <div className="relative lg:block"></div>
       </nav>
     </div>
   );
