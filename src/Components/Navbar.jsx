@@ -32,7 +32,7 @@ const Navbar = () => {
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   return (
     <div className="flex items-center justify-center sticky top-0 z-100 bg-[#fff] shadow-md w-full">
-      <nav className="flex items-center w-full max-w-[1400px]"></nav>
+      <nav className="flex items-center w-full max-w-[1400px] justify-between gap-3 px-5 md:px-10 py-4"></nav>
     </div>
   );
 };
