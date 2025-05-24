@@ -49,6 +49,9 @@ const Navbar = () => {
             <RiMenuLine />
             Category
           </button>
+          <div
+            className={`absolute z-20 left-0 w-[250px] mt-3 bg-[#fff] shadow-lg rounded-md p-3 transition-all duration-300 ease-in-out`}
+          ></div>
         </div>
       </nav>
     </div>
