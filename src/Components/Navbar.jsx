@@ -34,7 +34,11 @@ const Navbar = () => {
     <div className="flex items-center justify-center sticky top-0 z-100 bg-[#fff] shadow-md w-full">
       <nav className="flex items-center w-full max-w-[1400px] justify-between gap-3 px-5 md:px-10 py-4">
         <span className="flex items-center lg:border-r border-gray-300 min-h-[40px] pr-7">
-          <link rel="stylesheet" href="" />
+          <link to="/">
+            <h1 className="font-bold text-xl">
+              Skill <span></span>
+            </h1>
+          </link>
         </span>
       </nav>
     </div>
