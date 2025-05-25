@@ -56,7 +56,9 @@ const Navbar = () => {
                 : "opacity-0 -translate-y-5 invisible"
             }`}
           >
-            <ul></ul>
+            <ul className="">
+              {CourseCategories.map((category, index) => {})}
+            </ul>
           </div>
         </div>
       </nav>
