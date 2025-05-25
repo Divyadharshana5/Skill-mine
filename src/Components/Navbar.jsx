@@ -70,7 +70,12 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <form action="submit" className="hidden lg:flex"></form>
+        <form action="submit" className="hidden lg:flex w-[500px] relative">
+          <input
+            type="text"
+            className="border border-1 border-gray-300 text-gray-700 outline-none w-full p-4 pr-10 rounded-[8px]"
+          />
+        </form>
       </nav>
     </div>
   );
