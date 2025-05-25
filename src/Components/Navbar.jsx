@@ -58,7 +58,12 @@ const Navbar = () => {
           >
             <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px] overflow-auto">
               {CourseCategories.map((category, index) => (
-                <li key={index}></li>
+                <li key={index}>
+                  <link
+                    className="hover:text-purple-500 text-gray-600 cursor-pointer"
+                    to="#"
+                  ></link>
+                </li>
               ))}
             </ul>
           </div>
