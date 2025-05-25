@@ -46,7 +46,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsCategoryOpen(false)}
         >
           <button className="flex items-center gap-2 text-[1em] cursor-pointer">
-            <RiMenuLine />
+            <RiMenuLine size={20} />
             Category
           </button>
           <div
