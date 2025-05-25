@@ -57,7 +57,9 @@ const Navbar = () => {
             }`}
           >
             <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px] overflow-auto">
-              {CourseCategories.map((category, index) => {})}
+              {CourseCategories.map((category, index) => (
+                <li key={index}></li>
+              ))}
             </ul>
           </div>
         </div>
