@@ -62,7 +62,9 @@ const Navbar = () => {
                   <link
                     className="hover:text-purple-500 text-gray-600 cursor-pointer"
                     to="#"
-                  ></link>
+                  >
+                    {category}
+                  </link>
                 </li>
               ))}
             </ul>
