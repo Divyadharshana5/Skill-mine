@@ -74,6 +74,7 @@ const Navbar = () => {
           <input
             type="text"
             className="border border-1 border-gray-300 text-gray-700 outline-none w-full p-4 pr-10 rounded-[8px]"
+            placeholder="Search Courses..."
           />
         </form>
       </nav>
