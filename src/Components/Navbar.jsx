@@ -76,6 +76,9 @@ const Navbar = () => {
             className="border border-1 border-gray-300 text-gray-700 outline-none w-full p-4 pr-10 rounded-[8px]"
             placeholder="Search Courses..."
           />
+          <button className="absolute right-4 h-full transition-">
+            <RiSearch2Line color="#7d0ed2" size={22} />
+          </button>
         </form>
       </nav>
     </div>
