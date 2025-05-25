@@ -56,7 +56,7 @@ const Navbar = () => {
                 : "opacity-0 -translate-y-5 invisible"
             }`}
           >
-            <ul className="">
+            <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px]">
               {CourseCategories.map((category, index) => {})}
             </ul>
           </div>
