@@ -27,18 +27,18 @@ const CourseCategories = [
 ];
 
 const Navbar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  // const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
-  const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
+  // const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   return (
     <div className="flex items-center justify-center sticky top-0 z-100 bg-[#fff] shadow-md w-full">
       <nav className="flex items-center w-full max-w-[1400px] justify-between gap-3 px-5 md:px-10 py-4">
         <span className="flex items-center lg:border-r border-gray-300 min-h-[40px] pr-7">
-          <link to="/">
+          <Link to="/">
             <h1 className="font-bold text-xl">
               Skill <span className="text-purple-500">Mine</span>
             </h1>
-          </link>
+          </Link>
         </span>
         <div
           className="relative hidden lg:block"
@@ -59,12 +59,12 @@ const Navbar = () => {
             <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px] overflow-auto">
               {CourseCategories.map((category, index) => (
                 <li key={index}>
-                  <link
+                  <Link
                     className="hover:text-purple-500 text-gray-600 cursor-pointer"
                     to="#"
                   >
                     {category}
-                  </link>
+                  </Link>
                 </li>
               ))}
             </ul>

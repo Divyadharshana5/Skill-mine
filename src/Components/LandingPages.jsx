@@ -1,13 +1,11 @@
-import { React, useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
-
-const LandingPages = () => {
+function LandingPages() {
   return (
     <div>
       <Navbar />
-      LandingPages
     </div>
   );
-};
+}
 
 export default LandingPages;
