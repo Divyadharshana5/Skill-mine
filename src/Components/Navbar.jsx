@@ -89,6 +89,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4 min-h-[40px]">
           <Link to="#" className="cursor-pointer relative p-2">
             <RiShoppingCartLine color="#000" size={25} />
+            <span className="flex items-center justify-center absolute top-[-2px] right-[-5px] bg:purple-600 text-white text-sm font-medium p-1.5 rounded-full"></span>
           </Link>
         </div>
       </nav>
