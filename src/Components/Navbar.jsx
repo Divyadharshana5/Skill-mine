@@ -86,7 +86,7 @@ const Navbar = () => {
         >
           Become a Instructor
         </Link>
-        <div>
+        <div className="flex items-center gap-4 min-h-[40px]">
           <Link to="#"></Link>
         </div>
       </nav>
