@@ -87,7 +87,7 @@ const Navbar = () => {
           Become a Instructor
         </Link>
         <div className="flex items-center gap-4 min-h-[40px]">
-          <Link to="#"></Link>
+          <Link to="#" className="cursor-pointer relative p-2"></Link>
         </div>
       </nav>
     </div>
