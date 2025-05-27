@@ -80,7 +80,10 @@ const Navbar = () => {
             <RiSearch2Line color="#7d0ed2" size={22} />
           </button>
         </form>
-        <Link className="hidden lg:block whitespace-nowrap hover-text-purple-500 "></Link>
+        <Link
+          className="hidden lg:block whitespace-nowrap hover-text-purple-500 "
+          to="#"
+        ></Link>
       </nav>
     </div>
   );
