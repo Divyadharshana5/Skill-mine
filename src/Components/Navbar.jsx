@@ -83,7 +83,12 @@ const Navbar = () => {
         <Link
           className="hidden lg:block whitespace-nowrap hover-text-purple-500 "
           to="#"
-        ></Link>
+        >
+          Become a Instructor
+        </Link>
+        <div>
+          <Link to="#"></Link>
+        </div>
       </nav>
     </div>
   );
