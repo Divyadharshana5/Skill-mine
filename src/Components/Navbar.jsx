@@ -93,6 +93,7 @@ const Navbar = () => {
               10
             </span>
           </Link>
+          <button className="lg:hidden cursor-pointer"></button>
         </div>
       </nav>
     </div>
