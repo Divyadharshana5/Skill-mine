@@ -27,7 +27,7 @@ const CourseCategories = [
 ];
 
 const Navbar = () => {
-  // const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   // const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   return (
@@ -93,7 +93,10 @@ const Navbar = () => {
               10
             </span>
           </Link>
-          <button className="lg:hidden cursor-pointer"></button>
+          <button
+            className="lg:hidden cursor-pointer"
+            onClick={() => setIsSidebarOpen(true)}
+          ></button>
         </div>
       </nav>
     </div>
