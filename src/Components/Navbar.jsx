@@ -96,7 +96,9 @@ const Navbar = () => {
           <button
             className="lg:hidden cursor-pointer"
             onClick={() => setIsSidebarOpen(true)}
-          ></button>
+          >
+            <RiMenuLine color="#000" size={25} />
+          </button>
         </div>
       </nav>
     </div>
