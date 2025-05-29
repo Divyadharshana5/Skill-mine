@@ -100,7 +100,10 @@ const Navbar = () => {
             <RiMenuLine color="#000" size={25} />
           </button>
           <span className="hidden lg:flex items-center gap-8 lg:border-1 border-gray-100 pl-5 ml-5 whitespace-nowrap">
-            <Link to=""></Link>
+            <Link
+              to=" "
+              className="text-lg font-medium hover:text-purple-500"
+            ></Link>
           </span>
         </div>
       </nav>
