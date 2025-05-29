@@ -99,7 +99,7 @@ const Navbar = () => {
           >
             <RiMenuLine color="#000" size={25} />
           </button>
-          <span className="hidden lg:flex items-center gap-8 lg:border-1"></span>
+          <span className="hidden lg:flex items-center gap-8 lg:border-1 border-gray-100 pl-5 ml-5 whitespace-nowrap"></span>
         </div>
       </nav>
     </div>
