@@ -103,7 +103,10 @@ const Navbar = () => {
             <Link to=" " className="text-lg font-medium hover:text-purple-500">
               Log In
             </Link>
-            <Link to=" " className="text-lg font-medium hover:text-purple-500">
+            <Link
+              to=" "
+              className="text-lg font-medium hover:bg-purple-600 text-white px-6"
+            >
               Sign Up
             </Link>
           </span>
