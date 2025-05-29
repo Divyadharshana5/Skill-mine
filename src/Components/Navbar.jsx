@@ -105,7 +105,7 @@ const Navbar = () => {
             </Link>
             <Link
               to=" "
-              className="text-lg font-medium hover:bg-purple-600 text-white px-6 py-2 rounded-md text-center"
+              className="text-lg font-medium bg-purple-600 text-white px-6 py-2 rounded-md text-center"
             >
               Sign Up
             </Link>
