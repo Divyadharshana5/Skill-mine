@@ -112,6 +112,7 @@ const Navbar = () => {
           </span>
         </div>
       </nav>
+      <div className={`fixed`}></div>
     </div>
   );
 };
