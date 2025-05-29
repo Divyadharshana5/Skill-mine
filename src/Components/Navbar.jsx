@@ -112,7 +112,7 @@ const Navbar = () => {
           </span>
         </div>
       </nav>
-      <div className={`fixed`}></div>
+      <div className={`fixed top-0 left-0 h-[100vh]`}></div>
     </div>
   );
 };
