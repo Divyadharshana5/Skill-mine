@@ -116,6 +116,11 @@ const Navbar = () => {
         className={`fixed top-0 left-0 h-[100vh] w-[80%] sm:w-[350px] bg-gray-900 shadow-lg z-50 p-5 transition-transform duration-300 ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         }`}
+      ></div>
+      <div
+        className={`fixed top-0 left-0 h-[100vh] w-[80%] sm:w-[350px] bg-gray-900 shadow-lg z-50 p-5 transition-transform duration-300 ${
+          isSidebarOpen ? "translate-x-0" : "translate-x-full"
+        }`}
       >
         <h1>Sidebar</h1>
       </div>
