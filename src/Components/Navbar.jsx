@@ -123,7 +123,11 @@ const Navbar = () => {
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <h1>Sidebar</h1>
+        <Link to="/">
+          <h1 className="font-bold text-xl">
+            Skill <span className="text-purple-500">Mine</span>
+          </h1>
+        </Link>
       </div>
     </div>
   );
