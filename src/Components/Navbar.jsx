@@ -113,7 +113,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className={`fixed top-0 left-0 h-[100vh] w-full bg-[#00000001b] opacity-50 p-5 z-40 transition-opacity duration-400 ${
+        className={`fixed inset-0 back top-0 left-0 h-[100vh] w-full bg-[#00000001b] opacity-50 p-5 z-40 transition-opacity duration-400 ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         }`}
       ></div>
