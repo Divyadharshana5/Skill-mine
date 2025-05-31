@@ -140,7 +140,7 @@ const Navbar = () => {
                 className="border border-1 border-gray-300  outline-none w-full p-4 pr-17 rounded-[8px]"
                 placeholder="Search Courses..."
               />
-              <button className="absolute right-0 text-[1em] bg-purple-500 px-5 rounded-tr-[8px] h-full transition-ease-in-out duration-0.3s cursor-pointer">
+              <button className="absolute right-0 text-[1em] bg-purple-500 px-5 rounded-tr-[8px] rounded-br-[8px] h-full transition-ease-in-out duration-0.3s cursor-pointer">
                 <RiSearch2Line color="#7d0ed2" size={22} />
               </button>
             </form>
