@@ -133,6 +133,7 @@ const Navbar = () => {
           >
             <FaTimes size={25} color="#fff" />
           </button>
+          <nav></nav>
         </Link>
       </div>
     </div>
