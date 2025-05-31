@@ -137,7 +137,7 @@ const Navbar = () => {
             <form action="submit" className="flex w-full relative">
               <input
                 type="text"
-                className="border border-1 border-gray-300  outline-none w-full p-4 pr-10 rounded-[8px]"
+                className="border border-1 border-gray-300  outline-none w-full p-4 pr-17 rounded-[8px]"
                 placeholder="Search Courses..."
               />
               <button className="absolute right-4 h-full transition-ease-in-out duration-0.3s cursor-pointer">
