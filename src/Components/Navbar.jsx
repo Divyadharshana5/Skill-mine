@@ -134,7 +134,7 @@ const Navbar = () => {
             <FaTimes size={25} color="#fff" />
           </button>
           <nav className="relative h-full mt-10 flex flex-col gap-1 text-white">
-            <form action="submit" className="hidden lg:flex w-[500px] relative">
+            <form action="submit" className=" lg:flex w-[500px] relative">
               <input
                 type="text"
                 className="border border-1 border-gray-300 text-gray-700 outline-none w-full p-4 pr-10 rounded-[8px]"
