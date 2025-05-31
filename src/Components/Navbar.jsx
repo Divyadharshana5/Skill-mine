@@ -127,6 +127,7 @@ const Navbar = () => {
           <h1 className="font-bold text-xl">
             Skill <span className="text-purple-500">Mine</span>
           </h1>
+          <button></button>
         </Link>
       </div>
     </div>
