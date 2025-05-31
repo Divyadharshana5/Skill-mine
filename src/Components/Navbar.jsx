@@ -128,7 +128,7 @@ const Navbar = () => {
             Skill <span className="text-purple-500">Mine</span>
           </h1>
           <button
-            className="absolute top-4 right-4 cursor-pointer "
+            className="absolute top-6 right-6 cursor-pointer "
             onClick={() => setIsSidebarOpen(false)}
           >
             <FaTimes size={25} color="#fff" />
