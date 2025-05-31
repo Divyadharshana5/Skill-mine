@@ -133,7 +133,7 @@ const Navbar = () => {
           >
             <FaTimes size={25} color="#fff" />
           </button>
-          <nav className="relative h-full mt-10 flex flex-col gap-1"></nav>
+          <nav className="relative h-full mt-10 flex flex-col gap-1 text-white"></nav>
         </Link>
       </div>
     </div>
