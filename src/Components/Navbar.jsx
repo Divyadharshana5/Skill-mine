@@ -130,7 +130,9 @@ const Navbar = () => {
           <button
             className="absolute top-4 right-4 cursor-pointer "
             onClick={() => setIsSidebarOpen(false)}
-          ></button>
+          >
+            <FaTimes size={25} color="" />
+          </button>
         </Link>
       </div>
     </div>
