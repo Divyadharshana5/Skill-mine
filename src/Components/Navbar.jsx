@@ -127,7 +127,10 @@ const Navbar = () => {
           <h1 className="font-bold text-xl">
             Skill <span className="text-purple-500">Mine</span>
           </h1>
-          <button className="absolute top-4 right-4 cursor-pointer "></button>
+          <button
+            className="absolute top-4 right-4 cursor-pointer "
+            onClick={() => setIsSidebarOpen(false)}
+          ></button>
         </Link>
       </div>
     </div>
