@@ -144,6 +144,7 @@ const Navbar = () => {
                 <RiSearch2Line color="#fff" size={22} />
               </button>
             </form>
+            <div></div>
           </nav>
         </Link>
       </div>
