@@ -160,7 +160,7 @@ const Navbar = () => {
                   }`}
                 />
               </button>
-              <div className={}></div>
+              <div className={`overflow-hidden`}></div>
             </div>
           </nav>
         </Link>
