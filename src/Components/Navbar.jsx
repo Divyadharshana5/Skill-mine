@@ -146,7 +146,7 @@ const Navbar = () => {
             </form>
             <div
               className="flex flex-col gap-2 mt-10"
-              onClick={() => setIsCategoryDropdownOpen}
+              onClick={() => setIsCategoryDropdownOpen(!isCategoryDropdownOpen)}
             ></div>
           </nav>
         </Link>
