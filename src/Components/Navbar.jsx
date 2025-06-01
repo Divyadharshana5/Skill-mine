@@ -149,7 +149,10 @@ const Navbar = () => {
                 onClick={() =>
                   setIsCategoryDropdownOpen(!isCategoryDropdownOpen)
                 }
-              ></button>
+                className="flex justify-between items-center text-lg font-medium w-full text-left"
+              >
+                Category
+              </button>
             </div>
           </nav>
         </Link>
