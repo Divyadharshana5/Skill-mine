@@ -29,7 +29,7 @@ const CourseCategories = [
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
-  // const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
+  const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
   return (
     <div className="flex items-center justify-center sticky top-0 z-100 bg-[#fff] shadow-md w-full">
       <nav className="flex items-center w-full max-w-[1400px] justify-between gap-3 px-5 md:px-10 py-4">
@@ -144,7 +144,7 @@ const Navbar = () => {
                 <RiSearch2Line color="#fff" size={22} />
               </button>
             </form>
-            <div className="flex flex-col gap-2 mt-10"></div>
+            <div className="flex flex-col gap-2 mt-10" onClick={()=>}></div>
           </nav>
         </Link>
       </div>
