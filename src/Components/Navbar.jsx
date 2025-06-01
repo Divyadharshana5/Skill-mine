@@ -162,7 +162,7 @@ const Navbar = () => {
               </button>
               <div
                 className={`overflow-hidden transition-max-height duration-300 ${
-                  isCategoryDropdownOpen ? "max-height-[500px]" : ""
+                  isCategoryDropdownOpen ? "max-height-[500px]" : "max-h-0"
                 }`}
               ></div>
             </div>
