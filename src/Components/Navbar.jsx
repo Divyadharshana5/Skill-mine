@@ -144,10 +144,13 @@ const Navbar = () => {
                 <RiSearch2Line color="#fff" size={22} />
               </button>
             </form>
-            <div
-              className="flex flex-col gap-2 mt-10"
-              onClick={() => setIsCategoryDropdownOpen(!isCategoryDropdownOpen)}
-            ></div>
+            <div className="flex flex-col gap-2 mt-10">
+              <button
+                onClick={() =>
+                  setIsCategoryDropdownOpen(!isCategoryDropdownOpen)
+                }
+              ></button>
+            </div>
           </nav>
         </Link>
       </div>
