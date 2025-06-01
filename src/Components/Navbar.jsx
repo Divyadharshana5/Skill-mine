@@ -152,6 +152,13 @@ const Navbar = () => {
                 className="flex justify-between items-center text-lg font-medium w-full text-left"
               >
                 Category
+                <FaChevronDown
+                  color="#fff"
+                  size={20}
+                  className={`transition-transform duration-300 ${
+                    isCategoryDropdownOpen ? "rotate-180" : ""
+                  }`}
+                />
               </button>
             </div>
           </nav>
