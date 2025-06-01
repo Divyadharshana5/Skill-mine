@@ -144,7 +144,7 @@ const Navbar = () => {
                 <RiSearch2Line color="#fff" size={22} />
               </button>
             </form>
-            <div></div>
+            <div className="flex flex-col gap-2 mt-10"></div>
           </nav>
         </Link>
       </div>
