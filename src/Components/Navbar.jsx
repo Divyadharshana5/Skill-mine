@@ -113,7 +113,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className={`fixed inset-0 backdrop-blur-sm top-0 left-0 h-[100vh] w-full bg-[#00000001b] bg-opacity-50 z-40 transition-opacity duration-400 ${
+        className={`fixed inset-0 backdrop-blur-sm top-0 left-0 h-[100vh] w-full bg-[#0000001b] bg-opacity-50 z-40 transition-opacity duration-400 ${
           isSidebarOpen ? "opacity-200 visible" : "opacity-0 invisible"
         }`}
         onClick={() => setIsSidebarOpen(false)}
