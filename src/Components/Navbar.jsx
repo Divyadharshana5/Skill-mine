@@ -181,7 +181,9 @@ const Navbar = () => {
               <Link
                 to="#"
                 className="text-lg font-medium hover:text-purple-500"
-              ></Link>
+              >
+                Become an Instructor
+              </Link>
             </div>
           </nav>
         </Link>
