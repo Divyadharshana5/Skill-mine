@@ -178,6 +178,10 @@ const Navbar = () => {
                   ))}
                 </ul>
               </div>
+              <Link
+                to="#"
+                className="text-lg font-medium hover:text-purple-500"
+              ></Link>
             </div>
           </nav>
         </Link>
