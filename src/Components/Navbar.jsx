@@ -192,6 +192,12 @@ const Navbar = () => {
               >
                 Login
               </Link>
+              <Link
+                to="#"
+                className="w-full text-lg font-medium bg-purple-600 text-white px-6 py-3 rounded-md text-center"
+              >
+                Sign Up
+              </Link>
             </div>
           </nav>
         </Link>
