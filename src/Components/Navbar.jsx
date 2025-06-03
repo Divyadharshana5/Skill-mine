@@ -165,11 +165,11 @@ const Navbar = () => {
                   isCategoryDropdownOpen ? "max-height-[300px]" : "max-h-0"
                 }`}
               >
-                <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px] overflow-auto">
+                <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[200px] overflow-auto">
                   {CourseCategories.map((category, index) => (
                     <li key={index}>
                       <Link
-                        className="hover:text-purple-500 text-gray-600 cursor-pointer"
+                        className="hover:text-purple-500 text-white cursor-pointer"
                         to="#"
                       >
                         {category}
