@@ -188,9 +188,9 @@ const Navbar = () => {
             <div className="absolute bottom-20 flex flex-col items-center gap-2 w-full ">
               <Link
                 to="#"
-                className="w-full text-lg font-medium bg-purple-500 text-white px-6 py-3 rounded-md text-center"
+                className="w-full text-lg font-medium bg-purple-600 text-white px-6 py-3 rounded-md text-center"
               >
-                Become an Instructor
+                Login
               </Link>
             </div>
           </nav>
