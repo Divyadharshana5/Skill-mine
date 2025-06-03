@@ -10,4 +10,5 @@
 
 .scrollbar::-webkit-scrollbar-track {
   background: #939393;
+  border: 10px;
 }
