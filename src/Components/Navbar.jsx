@@ -186,7 +186,10 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="absolute bottom-20 flex flex-col items-center gap-2 w-full ">
-              <Link to="#" className="w-full font-medium bg-purple-500">
+              <Link
+                to="#"
+                className="w-full text-lg font-medium bg-purple-500 text-white px-6 py-3 rounded-md"
+              >
                 Become an Instructor
               </Link>
             </div>
