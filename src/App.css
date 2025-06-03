@@ -17,3 +17,7 @@
   background: #6b36c1;
   border-radius: 10px;
 }
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b36c1;
+}
