@@ -162,7 +162,7 @@ const Navbar = () => {
               </button>
               <div
                 className={`overflow-hidden transition-max-height duration-300 ${
-                  isCategoryDropdownOpen ? "max-height-[500px]" : "max-h-0"
+                  isCategoryDropdownOpen ? "max-height-[300px]" : "max-h-0"
                 }`}
               >
                 <ul className="flex flex-col gap-3 pl-4 mt-2 max-h-[300px] overflow-auto">
