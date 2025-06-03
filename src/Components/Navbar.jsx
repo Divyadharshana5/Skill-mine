@@ -186,10 +186,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="absolute bottom-20 flex flex-col items-center gap-2 w-full ">
-              <Link
-                to="#"
-                className="text-lg font-medium hover:text-purple-500"
-              >
+              <Link to="#" className="w-full font-medium bg-purple-500">
                 Become an Instructor
               </Link>
             </div>
