@@ -4,6 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.scrollbar::-webkit-scrollbar-track {
+.scrollbar::-webkit-scrollbar {
   width: 8px;
 }
