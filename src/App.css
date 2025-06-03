@@ -12,3 +12,7 @@
   background: #939393;
   border: 10px;
 }
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #6b36c1;
+}
