@@ -185,6 +185,7 @@ const Navbar = () => {
                 Become an Instructor
               </Link>
             </div>
+            <div className="absolute bottom-20 flex flex-col items-center gap-2 w-full "></div>
           </nav>
         </Link>
       </div>
