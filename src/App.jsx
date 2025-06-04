@@ -7,7 +7,7 @@ import "@fontsource/jost/700.css";
 
 function App() {
   return (
-    <div>
+    <div classname="h-[100vh]" style={{ fontFamily: "jost,sans-serif" }}>
       <Router>
         <Routes>
           <Route path="/" element={<LandingPages />} />
