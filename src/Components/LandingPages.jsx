@@ -9,7 +9,7 @@ const LandingPages = () => {
       <Navbar />
       <main>
         <div>
-          <img src={heroBg} alt="" />
+          <img className="absolute h-full w-full z-10" src={heroBg} alt="" />
         </div>
       </main>
     </div>
