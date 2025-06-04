@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import heroBg from "../assets/backgrounds/school-bg.jpg";
 const LandingPages = () => {
   return (
     <div>
