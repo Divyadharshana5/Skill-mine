@@ -8,7 +8,7 @@ const LandingPages = () => {
     <div>
       <Navbar />
       <main>
-        <div className="flex flex-col items-center justify-center relative min-h-[600px]">
+        <div className="flex flex-col items-center justify-center relative min-h-[600px] sm:h-[100vh]">
           <img
             className="absolute h-full w-full z-10 object-cover"
             src={heroBg}
