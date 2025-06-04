@@ -7,6 +7,11 @@ const LandingPages = () => {
   return (
     <div>
       <Navbar />
+      <main>
+        <div>
+          <img src={heroBg} alt="" />
+        </div>
+      </main>
     </div>
   );
 };
