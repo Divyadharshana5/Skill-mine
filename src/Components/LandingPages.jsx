@@ -15,6 +15,7 @@ const LandingPages = () => {
             alt=""
           />
           <div className="absolute z-20 w-full h-full bg-[#00000093]"></div>
+          <div className="flex lg:flex-row flex-col"></div>
         </div>
       </main>
     </div>
