@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import { RiSearch2Line } from "react-icons/ri";
 import "@fontsource/jost";
-import "@fontsource/jost/700.css";
+import "@fontsource/poppins/700.css";
 
 import heroBg from "../assets/backgrounds/school-bg.jpg";
 const LandingPages = () => {
