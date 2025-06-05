@@ -14,6 +14,7 @@ const LandingPages = () => {
             src={heroBg}
             alt=""
           />
+          <div></div>
         </div>
       </main>
     </div>
