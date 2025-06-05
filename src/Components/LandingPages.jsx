@@ -14,7 +14,7 @@ const LandingPages = () => {
             src={heroBg}
             alt=""
           />
-          <div></div>
+          <div className="absolute z-20 w-full h-full bg-[#000000093]"></div>
         </div>
       </main>
     </div>
