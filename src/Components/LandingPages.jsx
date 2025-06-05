@@ -16,7 +16,7 @@ const LandingPages = () => {
           />
           <div className="absolute z-20 w-full h-full bg-[#00000093]"></div>
           <div className="flex lg:flex-row flex-col items-center justify-center lg:justify-start gap-10 relative w-full h-full max-w-[1400px] p-3 sm:p-5 md:p-10">
-            <div className="flex"></div>
+            <div className="flex flex-col items-start"></div>
           </div>
         </div>
       </main>
