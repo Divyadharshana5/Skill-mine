@@ -26,7 +26,7 @@ const LandingPages = () => {
               >
                 Join Us today to get
               </p>
-              <h1 className="text-4xl md:text-5xl"></h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl text-white"></h1>
             </div>
           </div>
         </div>
