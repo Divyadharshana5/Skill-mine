@@ -29,7 +29,8 @@ const LandingPages = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold max-w-full lg:max-w-[800px] text-balance leading-[50px] md:leading-[80px]">
                 <span className="text-[#b958f5]">7,200+</span> Courses Taught By
                 {""}
-                <span className="text-[#b958f5]">720</span> Courses Taught By
+                <span className="text-[#b958f5]">720</span> Top Instructors And
+                Institutions
                 {""}
               </h1>
             </div>
