@@ -33,6 +33,7 @@ const LandingPages = () => {
                 Institutions
                 {""}
               </h1>
+              <p>Elevate your educational institution to new heights,</p>
             </div>
           </div>
         </div>
