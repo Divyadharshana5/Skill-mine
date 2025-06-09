@@ -36,7 +36,10 @@ const LandingPages = () => {
               <p className="md:text-2xl text-xl text-gray-50">
                 Elevate your educational institution to new heights,
               </p>
-              <form action="" className="flex lg:w-fit w-full relative"></form>
+              <form
+                action=""
+                className="flex lg:w-fit w-full relative mt-5"
+              ></form>
             </div>
           </div>
         </div>
