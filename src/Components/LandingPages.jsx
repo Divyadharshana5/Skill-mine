@@ -42,6 +42,7 @@ const LandingPages = () => {
                   className="bg-white border border-gray-300 text-gray-500 outline-none w-full lg:min-w-[600px] pr-19 pl-4 py-5 rounded-[8px] placeholder:text-sm lg:placeholder:text-lg"
                   placeholder="Search Courses...."
                 />
+                <button className="absolute right-0 h-full"></button>
               </form>
             </div>
           </div>
