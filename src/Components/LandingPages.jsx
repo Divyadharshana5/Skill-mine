@@ -39,7 +39,7 @@ const LandingPages = () => {
               <form action="" className="flex lg:w-fit w-full relative mt-5">
                 <input
                   type="text"
-                  className="bg-white border border-gray-300 text-gray-500 outline-none w-full lg:min-w-[600px] pr-19 pl-4 py-5 rounded-[8px] placeholder:text-sm"
+                  className="bg-white border border-gray-300 text-gray-500 outline-none w-full lg:min-w-[600px] pr-19 pl-4 py-5 rounded-[8px] placeholder:text-sm lg:placeholder:text-lg"
                   placeholder="Search Courses...."
                 />
               </form>
