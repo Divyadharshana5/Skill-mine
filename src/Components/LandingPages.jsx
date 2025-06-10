@@ -32,7 +32,7 @@ const LandingPages = () => {
               >
                 <span className="text-[#b958f5]">7,200+</span> Courses Taught By
                 {""}
-                <span className="text-[#b958f5]">720</span> Top Instructors And
+                <span className="text-[#b958f5]"> 720</span> Top Instructors And
                 Institutions
                 {""}
               </h1>
