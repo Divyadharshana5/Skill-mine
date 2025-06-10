@@ -52,6 +52,7 @@ const LandingPages = () => {
             </div>
           </div>
         </div>
+        <div></div>
       </main>
     </div>
   );
