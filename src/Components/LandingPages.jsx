@@ -43,7 +43,7 @@ const LandingPages = () => {
                   placeholder="Search Courses...."
                 />
                 <button className="absolute right-0 h-full bg-purple-600 px-5 rounded-tr-[8px] rounded-br-[8px] text-[1em] transition-ease-in-out duration-0.3s cursor-pointer">
-                  <RiSearch2Line />
+                  <RiSearch2Line color="white" size={25} />
                 </button>
               </form>
             </div>
