@@ -52,7 +52,7 @@ const LandingPages = () => {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="flex items-start justify-start w-full"></div>
       </main>
     </div>
   );
