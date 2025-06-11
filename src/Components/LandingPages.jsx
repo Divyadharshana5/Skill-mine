@@ -52,7 +52,9 @@ const LandingPages = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-start w-full h-full bg-purple-600 p-10"></div>
+        <div className="flex items-start justify-start w-full h-full bg-purple-600 p-10">
+          <span className="grid"></span>
+        </div>
       </main>
     </div>
   );
