@@ -6,6 +6,9 @@ import "@fontsource/poppins";
 import "@fontsource/poppins/700.css";
 
 import heroBg from "../assets/backgrounds/school-bg.jpg";
+import skillImg1 from "../assets/icons/essential.png";
+
+const requirements = [];
 const LandingPages = () => {
   return (
     <div>
