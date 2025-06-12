@@ -6,9 +6,30 @@ import "@fontsource/poppins";
 import "@fontsource/poppins/700.css";
 
 import heroBg from "../assets/backgrounds/school-bg.jpg";
-import skillImg1 from "../assets/icons/essential.png";
 
-const requirements = [];
+import skillImg1 from "../assets/icons/essential-skills.png";
+import skillImg2 from "../assets/icons/certificate.png";
+import skillImg3 from "../assets/icons/career-upgrade.png";
+import skillImg4 from "../assets/icons/career-master.png";
+
+const requirements = [
+  {
+    img: skillImg1,
+    title: "Learn the Essential Skills",
+  },
+  {
+    img: skillImg2,
+    title: "Earn Certificate And Degree",
+  },
+  {
+    img: skillImg3,
+    title: "Get Ready for the Next Career",
+  },
+  {
+    img: skillImg4,
+    title: "Master at Different Areas",
+  },
+];
 const LandingPages = () => {
   return (
     <div>
@@ -56,7 +77,9 @@ const LandingPages = () => {
           </div>
         </div>
         <div className="flex items-start justify-start w-full h-full bg-purple-600 p-10">
-          <span className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-start gap-10 md:gap-20 max-w-[1400px] mx-auto w-full"></span>
+          <span className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-start gap-10 md:gap-20 max-w-[1400px] mx-auto w-full">
+            {requirements.map}
+          </span>
         </div>
       </main>
     </div>
