@@ -79,7 +79,9 @@ const LandingPages = () => {
         <div className="flex items-start justify-start w-full h-full bg-purple-600 p-10">
           <span className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-start gap-10 md:gap-20 max-w-[1400px] mx-auto w-full">
             {requirements.map((requirements, index) => {
-              <div key={index} className="flex items-center gap-4"></div>;
+              <div key={index} className="flex items-center gap-4">
+                <img src={requirements.img} alt="" />
+              </div>;
             })}
           </span>
         </div>
