@@ -85,7 +85,7 @@ const LandingPages = () => {
                   className="w-[60px] brightness"
                   alt=""
                 />
-                <p className="text-white"></p>
+                <p className="text-white">{requirements.title}</p>
               </div>;
             })}
           </span>
