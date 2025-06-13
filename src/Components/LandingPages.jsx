@@ -85,7 +85,7 @@ const LandingPages = () => {
                   className="w-[60px] brightness"
                   alt=""
                 />
-                <p></p>
+                <p className="text-white"></p>
               </div>;
             })}
           </span>
