@@ -82,7 +82,7 @@ const LandingPages = () => {
               <div key={index} className="flex items-center gap-4">
                 <img
                   src={requirements.img}
-                  className="w-[60px] brightness"
+                  className="w-[60px] brightness-0 invert"
                   alt=""
                 />
                 <p className="text-white">{requirements.title}</p>
